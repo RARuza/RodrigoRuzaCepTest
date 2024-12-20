@@ -94,9 +94,7 @@ src/
         "unidade": null,
         "ibge": 1111111,
         "gia": "2222"
-    },
-    "statusCode": 200
-  }
+      }
     ],
     "statusCode": 200
   }
