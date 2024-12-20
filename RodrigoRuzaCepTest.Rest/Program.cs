@@ -10,7 +10,7 @@ using RodrigoRuzaCepTest.Shared.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string connectionString = "Server=85.31.63.18;Port=3306;Database=LocalDB;Uid=mysql;Pwd=Senha#2024!;";
+var connectionString = builder.Configuration.GetConnectionString("MySql");
 
 builder.Services.AddDbContext<LocalDbContext>(options =>
     options.UseMySql(connectionString,

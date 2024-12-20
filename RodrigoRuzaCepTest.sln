@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodrigoRuzaCepTest.Rest", "RodrigoRuzaCepTest.Rest\RodrigoRuzaCepTest.Rest.csproj", "{412BB520-31FA-4E43-AD01-CA8C40B465A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodrigoRuzaCepTest.Rest", "RodrigoRuzaCepTest.Rest\RodrigoRuzaCepTest.Rest.csproj", "{412BB520-31FA-4E43-AD01-CA8C40B465A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodrigoRuzaCepTest.Domain", "RodrigoRuzaCepTest.Domain\RodrigoRuzaCepTest.Domain.csproj", "{2C546161-4B26-428E-9844-6E2AD43DA571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodrigoRuzaCepTest.Domain", "RodrigoRuzaCepTest.Domain\RodrigoRuzaCepTest.Domain.csproj", "{2C546161-4B26-428E-9844-6E2AD43DA571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodrigoRuzaCepTest.Infraestructure", "RodrigoRuzaCepTest.Infraestructure\RodrigoRuzaCepTest.Infraestructure.csproj", "{B7369D50-ACB7-45D0-ADC1-E3A8A0646395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodrigoRuzaCepTest.Infraestructure", "RodrigoRuzaCepTest.Infraestructure\RodrigoRuzaCepTest.Infraestructure.csproj", "{B7369D50-ACB7-45D0-ADC1-E3A8A0646395}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodrigoRuzaCepTest.Shared", "RodrigoRuzaCepTest.Shared\RodrigoRuzaCepTest.Shared.csproj", "{2A4B7B5A-7A10-4BB8-ACB8-90EFEE3C11F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodrigoRuzaCepTest.Shared", "RodrigoRuzaCepTest.Shared\RodrigoRuzaCepTest.Shared.csproj", "{2A4B7B5A-7A10-4BB8-ACB8-90EFEE3C11F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RodrigoRuzaCepTest.UnitTests", "RodrigoRuzaCepTest.UnitTests\RodrigoRuzaCepTest.UnitTests.csproj", "{1256D1C8-BDBB-4688-9699-D02C65F56D9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2A4B7B5A-7A10-4BB8-ACB8-90EFEE3C11F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4B7B5A-7A10-4BB8-ACB8-90EFEE3C11F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4B7B5A-7A10-4BB8-ACB8-90EFEE3C11F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1256D1C8-BDBB-4688-9699-D02C65F56D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1256D1C8-BDBB-4688-9699-D02C65F56D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1256D1C8-BDBB-4688-9699-D02C65F56D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1256D1C8-BDBB-4688-9699-D02C65F56D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

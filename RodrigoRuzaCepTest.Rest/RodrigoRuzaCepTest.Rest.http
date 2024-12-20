@@ -1,6 +1,0 @@
-@RodrigoRuzaCepTest.Rest_HostAddress = http://localhost:5188
-
-GET {{RodrigoRuzaCepTest.Rest_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
