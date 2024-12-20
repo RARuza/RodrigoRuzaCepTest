@@ -159,7 +159,23 @@ src/
 
 3. Configure the connection strings in `appsettings.json` or `appsettings.Development.json`.
 
-4. Run the application:  
+4. Make sure to have the mysql table structure bellow set at your local database:
+   ```
+     CREATE TABLE[dbo].[CEP] (
+        [Id]          INT IDENTITY(1, 1) NOT NULL,
+        [cep]         CHAR(9)       NULL,
+        [logradouro] NVARCHAR(500) NULL,
+        [complemento] NVARCHAR(500) NULL,
+        [bairro] NVARCHAR(500) NULL,
+        [localidade] NVARCHAR(500) NULL,
+        [uf] CHAR(2)       NULL,
+        [unidade] BIGINT NULL,
+        [ibge]        INT NULL,
+        [gia]         NVARCHAR(500) NULL
+      );
+   ```
+
+6. Run the application:  
    ```bash
    dotnet run
    ```
