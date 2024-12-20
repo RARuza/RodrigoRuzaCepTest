@@ -82,8 +82,6 @@ src/
     "message": "",
     "data": [
       {
-      "message": "",
-      "data": {
         "id": 18,
         "cepCode": "12345678",
         "logradouro": "Rua Exemplo",
